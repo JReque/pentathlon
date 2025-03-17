@@ -40,7 +40,7 @@
 					>
 						<img
 							:src="hero.picture"
-							:alt="hero.name || 'New Hero'"
+							:alt="hero.name"
 							class="w-full h-full object-cover"
 						/>
 						<div

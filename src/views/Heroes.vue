@@ -16,7 +16,7 @@
 				class="max-w-[300px] bg-white p-2.5 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-900"
 			/>
 		</div>
-		<div class="fixed top-20 right-10">
+		<div class="fixed top-20 right-10 z-10">
 			<button
 				@click.stop="() => openEditDrawer(null)"
 				class="flex items-center gap-2 px-4 py-2 font-bangers text-2xl bg-red-700 text-white rounded-md transition-transform duration-300 ease-in-out hover:scale-105"
