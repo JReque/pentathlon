@@ -44,7 +44,7 @@
 		</div>
 		<div
 			v-if="!isLoading && !error"
-			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 max-w-[1500px] mx-auto"
 		>
 			<HeroCard
 				v-for="hero in filteredHeroes"
